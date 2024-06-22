@@ -46,7 +46,7 @@ const ExampleComponent = {
 | ---| --- | ---|
 |`numPages`| `int` | defines the number of virtual pages a user have to scroll. defaults to `3` |
 | `updateScroll` | `(int)=>Unit` | call back to handle the scroll percentage value from 0 to 1 | 
-| `numSnaps` | `int` or `null` | if your page has window snapping, you will not be able to scroll down unless you explicilty define the number of snapping points within the virual scroll space.
+| `numSnaps` | `int` or `null` | if your page has window snapping, you will not be able to scroll down unless you explicilty define the number of snapping points within the virual scroll space. Defaults to `null`.
 
 
 ## License
