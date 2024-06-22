@@ -15,15 +15,26 @@ npm install --save static-scroll
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'static-scroll'
+import StaticScroll from 'static-scroll'
 import 'static-scroll/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <StaticScroll updateScroll={(x) => setSlide(x)}>
+        <div className='h-100 w-100 red d-flex center'>
+          <div className='white-text'>
+            <h1 style={{transform: "scale(" + (1 + slide * 5) + ")"}}>
+              Scroll down to start
+            </h1>
+          </div>
+        </div>
+      </StaticScroll>)
   }
 }
 ```
+## Demo Usage
+Visit [homepage](https://static-scroll.oss.javascript.soorkie.com) to see demo usage
 
 ## License
 

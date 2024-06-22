@@ -22,7 +22,7 @@
     "name": "soorkie",
     "email": "oss.javascript@soorkie.com"
   },
-  "homepage" : "https://oss.javascript.soorkie.com/static-scroll",
+  "homepage" : "https://static-scroll.oss.javascript.soorkie.com/",
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
