@@ -1,6 +1,6 @@
 {
   "name": "static-scroll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Capture scroll and turn into beautiful animations. Create animations based on percentage of scroll. Keyframe by scroll percentage.",
   "license": "MIT",
   "repository": "Sooryakiran/static-scroll",
@@ -14,7 +14,7 @@
     "react",
     "animation",
     "scroll",
-    "animate on scroll",    
+    "animate on scroll",
     "static",
     "apple like animation"
   ],
@@ -22,7 +22,7 @@
     "name": "soorkie",
     "email": "oss.javascript@soorkie.com"
   },
-  "homepage" : "https://static-scroll.oss.javascript.soorkie.com/",
+  "homepage": "https://static-scroll.oss.javascript.soorkie.com/",
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
@@ -36,7 +36,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": ">=16.0.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-unicode-property-regex": "^7.18.6",
@@ -56,9 +56,9 @@
     "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react": ">16.13.1",
+    "react-dom": ">16.13.1",
+    "react-scripts": ">3.4.1"
   },
   "files": [
     "dist"
