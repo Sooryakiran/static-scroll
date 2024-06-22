@@ -28,3 +28,4 @@ class Example extends Component {
 ## License
 
 MIT © [Sooryakiran](https://github.com/Sooryakiran)
+# static-scroll
